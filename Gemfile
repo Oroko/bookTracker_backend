@@ -38,6 +38,7 @@ end
 
 gem 'hirb'
 gem 'activerecord-reset-pk-sequence'
+gem 'fast_jsonapi'
 
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
