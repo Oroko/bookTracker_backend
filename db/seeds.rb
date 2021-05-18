@@ -11,3 +11,9 @@
 
 
 
+
+Author.create(name: 'Paulo Coelho')
+
+Author.create(name: 'David Goggins')
+
+Author.create(name: 'Jocko Willink')

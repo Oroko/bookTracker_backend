@@ -1,4 +1,5 @@
 class AuthorSerializer
   include FastJsonapi::ObjectSerializer
-  attributes :name
+  attributes :name , :imageUrl
+  has_many :books
 end
