@@ -7,10 +7,10 @@ class Api::V1::AuthorsController < ApplicationController
 
   def show
   	author = Author.find_by(id: params[:id])
-  	options = {
-  		include: [:books]
-  	}
-  	render json: AuthorSerializer.new(author, options)
+  	# options = {
+  	# 	include: [:books]
+  	# }
+  	render json: AuthorSerializer.new(author)
 
   end
 end
